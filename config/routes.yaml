@@ -1,0 +1,10 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+# config/routes.yaml
+
+
+
+app_connexion:
+    path: /connexion
+    controller: App\Controller\ConnexionController::index
